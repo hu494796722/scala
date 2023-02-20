@@ -2,7 +2,7 @@ package day20230217
 
 import scala.io.StdIn
 
-object Test05_StdIn {
+object Test02_05_StdIn {
   def main(args: Array[String]): Unit = {
     // 输入信息
     println("请输出您的姓名：")

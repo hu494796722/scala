@@ -1,6 +1,6 @@
 package day20230217
 
-object Test02_Variavle {
+object Test02_02_Variavle {
   def main(args: Array[String]): Unit = {
     //声明一个变量的通用语法
     var a: Int = 10

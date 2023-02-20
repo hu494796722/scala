@@ -1,6 +1,6 @@
 package day20230217
 
-object Test03_ldenttifier {
+object Test02_03_ldenttifier {
   def main(args: Array[String]): Unit = {
     //(1) 以字母或者下划线开头,后接字母，数字，下划线
     val hello: String = ""

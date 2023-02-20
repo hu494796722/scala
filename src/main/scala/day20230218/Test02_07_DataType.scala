@@ -2,7 +2,7 @@ package day20230218
 
 import day20230217.Student
 
-object Test07_DataType {
+object Test02_07_DataType {
   def main(args: Array[String]): Unit = {
     // 1. 整形类型
     val a1: Byte = 127

@@ -1,6 +1,6 @@
 package day20230217
 
-object Test04_String {
+object Test02_04_String {
   def main(args: Array[String]): Unit = {
     //（1）字符串，通过+号连接
     val name: String = "huzc"
