@@ -27,7 +27,10 @@ object Test05_06_HighOrderFunction {
     println(f2)
     println(f2(2))
 
-    println("========================")
+    println("******************************")
+    println(f1(fun()))
+    println(f1(f(3))) //  传值参数
+    println("******************************")
 
 
     val f3:() => Int = fun  // () 写不写都可以
