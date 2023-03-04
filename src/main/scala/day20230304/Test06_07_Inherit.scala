@@ -1,4 +1,4 @@
-package day20230302
+package day20230304
 
 object Test06_07_Inherit {
   def main(args: Array[String]): Unit = {
