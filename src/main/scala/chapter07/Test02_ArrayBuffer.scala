@@ -25,7 +25,7 @@ object Test02_ArrayBuffer {
     // 3. 添加元素
     // :+ 的方式是针对不可变数组的添加方式，
     // 在可变数组中直接使用 :+ 语法和运行都不会报错，但是不会添加成功。 所以 println(arr1) 的结果为空
-    // 要想有结果就要赋值新的数组 newArr1 这样 println(newArr1) 是会有结果的
+    // :+ 要想有结果就要赋值新的数组 newArr1 这样 println(newArr1) 是会有结果的
     val newArr1: ArrayBuffer[Int] = arr1 :+ 15
     println(arr1)
     println(newArr1)

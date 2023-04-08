@@ -12,6 +12,7 @@ object Test04_List {
     // 2.访问元素
     println(list1(2))
 //    list1(2) = 121212  error
+//    val unit: Unit = list1 += 12  // error
 
     // 3. 添加元素
     val list2: List[Int] = 10 +: list1
