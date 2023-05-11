@@ -5,7 +5,7 @@ object Test04_List {
 
   def main(args: Array[String]): Unit = {
 
-    // 1. 创建一个可变的list
+    // 1. 创建一个不可变的list
     val list1: List[Int] = List(23, 34, 345)
     println(list1)
 
